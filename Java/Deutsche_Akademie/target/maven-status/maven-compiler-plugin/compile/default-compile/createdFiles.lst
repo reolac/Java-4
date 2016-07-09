@@ -1,0 +1,10 @@
+com\mycompany\deutsche_akademie\EditDatabase.class
+com\mycompany\deutsche_akademie\DeleteWord.class
+com\mycompany\deutsche_akademie\Register.class
+com\mycompany\deutsche_akademie\AddDeleteWord.class
+com\mycompany\deutsche_akademie\AddWord.class
+com\mycompany\deutsche_akademie\SubmitAnswers.class
+com\mycompany\deutsche_akademie\SqLTester.class
+com\mycompany\deutsche_akademie\StartTest.class
+com\mycompany\deutsche_akademie\UpdateDatabase.class
+com\mycompany\deutsche_akademie\Login.class

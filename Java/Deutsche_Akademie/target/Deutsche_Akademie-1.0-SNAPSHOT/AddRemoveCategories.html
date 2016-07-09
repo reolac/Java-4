@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add or Remove: Categories</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+
+        <div class="indexTitle"><h1>
+                Welcome to Deutsche Akademie</h1>
+        </div>
+
+        <div class="navContainer">
+            <h1>In which category is the word you would like to add or remove?</h1>
+            <form action="AddDeleteWord" method="post">
+                <input type="hidden" name="category" value="area_a_home_and_abroad"/>
+                <input type="submit" class="navButton" value="Home and abroad"/>
+            </form>
+            <form action="AddDeleteWord" method="post">
+                <input type="hidden" name="category" value="area_b_education_and_employment"/>
+                <input type="submit" class="navButton" value="Education and employment"/>
+            </form>
+            <form action="AddDeleteWord" method="post"> 
+            <input type="hidden" name="category" value="area_c_house_home_and_daily_routine"/>
+            <input type="submit" class="navButton" value="House, home and daily routine"/>
+            </form>
+            <form action="AddDeleteWord" method="post"> 
+                <input type="hidden" name="category" value="area_d_the_modern_world"/>
+                <input type="submit" class="navButton" value="The modern world"/>
+            </form>
+            <form action="AddDeleteWord" method="post"> 
+                <input type="hidden" name="category" value="area_e_social_activities_fitness_and_health"/>
+                <input type="submit" class="navButton" value="Social activities, fitness and health"/>
+            </form>
+            <form action="AddDeleteWord" method="post"> 
+                <input type="hidden" name="category" value="non_topic_specific_vocabulary"/>
+                <input type="submit" class="navButton" value="Non topic specific vocbulary"/>
+            </form>
+
+
+            <form action="admin_home.html">
+                <button class="navButton" id="edit">
+                    <h1>Back</h1>
+                </button>
+            </form>
+        </div>
+    </body>
+</html>

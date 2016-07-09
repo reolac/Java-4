@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weatherSearches>
+	<search date ="12-03-2015">
+		<term>bangor</term>
+		<found>true</found>
+		<geoNameID>2656396</geoNameID>
+	</search date>
+</weatherSearches>

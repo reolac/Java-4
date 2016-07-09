@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+
+        <div class="indexTitle"><h1>
+                Welcome to Deutsche Akademie</h1>
+        </div>
+
+        <div class="navContainer">
+
+            <form action="StartTest" method="post">
+                <input type="hidden" name="account_id" id="account_id" value="1"/>
+                <button class="navButton">
+                    <h1>Take Test</h1>
+                </button>
+            </form>
+
+            <form action="ViewTestHistory" method="post">
+                <input type="hidden" name="account_id" id="account_id2" value="1"/>
+                <button class="navButton" id="view">
+                    <h1>View test history</h1>
+                </button>
+            </form>
+
+
+            <form action="AddRemoveCategories.html">
+                <button class="navButton">
+                    <h1>Add or remove word from the database</h1>
+                </button>
+
+            </form>
+
+            <form action="EditCategories.html">
+                <button class="navButton" id="edit">
+                    <h1>Edit entries in the database</h1>
+                </button>
+            </form>
+            <form action="RegistrationPage.html">
+                <button class="navButton" id="edit">
+                    <h1>Register a student</h1>
+                </button>
+            </form>
+
+        </div>
+    </body>
+       
+</html>

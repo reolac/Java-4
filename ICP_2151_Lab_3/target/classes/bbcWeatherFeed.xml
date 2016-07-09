@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:georss="http://www.georss.org/georss" version="2.0">
+<channel>
+ <atom:link
+ref="http://open.live.bbc.co.uk/weather/feeds/en/2656397/observations.rss"
+rel="self" type="application/rss+xml" />
+ <title>200 OK</title>
+ <link>http://www.bbc.co.uk/weather/2656397</link>
+ <description>Latest observations for Bangor from BBC Weather, including
+weather, temperature and wind information</description>
+ <language>en</language>
+ <copyright>Copyright: (C) British Broadcasting Corporation, see
+http://www.bbc.co.uk/terms/additional_rss.shtml for more details</copyright>
+ <pubDate>Fri, 09 Jan 2015 10:38:07 +0000</pubDate>
+ <item>
+ <title>Friday - 10:00 GMT: Light Cloud, 9°C (48°F)</title>
+ <link>http://www.bbc.co.uk/weather/2656397</link>
+ <description>Temperature: 9°C (48°F), Wind Direction: South South Westerly,
+Wind Speed: 19mph, Humidity: 87%, Pressure: 1018mb, Rising, Visibility:
+Good</description>
+ <pubDate>Fri, 09 Jan 2015 10:38:07 +0000</pubDate>
+ <guid isPermaLink="false">http://www.bbc.co.uk/weather/2656397-2015-01-
+09T10:38:07.000Z</guid>
+ <georss:point>53.22647 -4.13459</georss:point>
+ </item>
+</channel></rss>

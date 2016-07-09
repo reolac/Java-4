@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://icp_2151_lab_5.mycompany.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://icp_2151_lab_5.mycompany.com/">
+
+<xs:element name="getPlayerScore" type="tns:getPlayerScore"/>
+
+<xs:element name="getPlayerScoreResponse" type="tns:getPlayerScoreResponse"/>
+
+<xs:element name="getServerScore" type="tns:getServerScore"/>
+
+<xs:element name="getServerScoreResponse" type="tns:getServerScoreResponse"/>
+
+<xs:element name="newGame" type="tns:newGame"/>
+
+<xs:element name="newGameResponse" type="tns:newGameResponse"/>
+
+<xs:element name="playerRoll" type="tns:playerRoll"/>
+
+<xs:element name="playerRollResponse" type="tns:playerRollResponse"/>
+
+<xs:element name="resetPlayerAllocation" type="tns:resetPlayerAllocation"/>
+
+<xs:element name="resetPlayerAllocationResponse" type="tns:resetPlayerAllocationResponse"/>
+
+<xs:element name="resetServerAllocation" type="tns:resetServerAllocation"/>
+
+<xs:element name="resetServerAllocationResponse" type="tns:resetServerAllocationResponse"/>
+
+<xs:element name="savePlayerScore" type="tns:savePlayerScore"/>
+
+<xs:element name="savePlayerScoreResponse" type="tns:savePlayerScoreResponse"/>
+
+<xs:element name="saveServerScore" type="tns:saveServerScore"/>
+
+<xs:element name="saveServerScoreResponse" type="tns:saveServerScoreResponse"/>
+
+<xs:element name="serverRoll" type="tns:serverRoll"/>
+
+<xs:element name="serverRollResponse" type="tns:serverRollResponse"/>
+
+<xs:element name="serverSteps" type="tns:serverSteps"/>
+
+<xs:element name="serverStepsResponse" type="tns:serverStepsResponse"/>
+
+<xs:complexType name="saveServerScore">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="saveServerScoreResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="playerRoll">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="playerRollResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="savePlayerScore">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="savePlayerScoreResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="newGame">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="newGameResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="resetPlayerAllocation">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="resetPlayerAllocationResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPlayerScore">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPlayerScoreResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="resetServerAllocation">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="resetServerAllocationResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="serverRoll">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="serverRollResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getServerScore">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getServerScoreResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="serverSteps">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="serverStepsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/ICP_2151_Lab_5/PigService?WSDL" uri="wsdl/localhost_8080/ICP_2151_Lab_5/PigService.wsdl"/>
+    <system systemId="http://localhost:8080/ICP_2151_Lab_5-1.0-SNAPSHOT/PigService?wsdl" uri="wsdl/localhost_8080/ICP_2151_Lab_5-1.0-SNAPSHOT/PigService.wsdl"/>
+    <system systemId="http://localhost:8080/ICP_2151_Lab_5-1.0-SNAPSHOT/PigService?xsd=1" uri="wsdl/localhost_8080/ICP_2151_Lab_5-1.0-SNAPSHOT/PigService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ICP_2151_Lab_5-1/PigService?wsdl" uri="wsdl/localhost_8080/ICP_2151_Lab_5-1/PigService.wsdl"/>
+    <system systemId="http://localhost:8080/ICP_2151_Lab_5-1/PigService?xsd=1" uri="wsdl/localhost_8080/ICP_2151_Lab_5-1/PigService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ICP_2151_Lab_5/PigService?wsdl" uri="wsdl/localhost_8080/ICP_2151_Lab_5/PigService.wsdl"/>
+    <system systemId="http://localhost:8080/ICP_2151_Lab_5/PigService?xsd=1" uri="wsdl/localhost_8080/ICP_2151_Lab_5/PigService.xsd_1.xsd"/>
+</catalog>

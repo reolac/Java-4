@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+ 
+    </head>
+    <body>
+
+        <div class="indexTitle">
+            <h1>Welcome to Deutsche Akademie</h1>
+        </div>
+
+        <div class="navContainer">
+
+            <form action="StartTest" method="post">
+                <input type="hidden" name="account_id" id="account_id"/>
+                <button class="navButton">
+                    <h1>Take Test</h1>
+                </button>
+            </form>
+
+            <form action="ViewTestHistory" method="post">
+                <input type="hidden" name="account_id" id="account_id2"/>
+                <button class="navButton">
+                    <h1>View test history</h1>
+                </button>
+            </form>
+        </div>
+    </body>
+
+       <script>
+
+
+            function GetURLParameter(sParam) {
+                var sPageURL = window.location.search.substring(1);
+                var sURLVariables = sPageURL.split('&');
+                for (var i = 0; i < sURLVariables.length; i++) {
+                    var sParameterName = sURLVariables[i].split('=');
+                    if (sParameterName[0] == sParam)
+                    {
+                        document.getElementById("account_id").value=sParameterName[1];
+                        document.getElementById("account_id2").value=sParameterName[1];
+                        return sParameterName[1];
+                    }
+                }
+            }
+            
+            var tech = GetURLParameter('account_id');
+
+            
+            
+
+
+        </script>
+</html>
